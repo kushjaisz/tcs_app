@@ -488,7 +488,7 @@ fun PromoCard(
                     }
                 ) {
                     Text(
-                        text = "Choose Plan",
+                        text = "Start a Free Trial",
                         maxLines = 1,
                         fontSize = 13.sp,
                         softWrap = false,
