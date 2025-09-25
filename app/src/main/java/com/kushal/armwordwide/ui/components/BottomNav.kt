@@ -54,7 +54,7 @@ fun CustomBottomBar(navController: NavController) {
         containerColor = Color(0xFF1E1E1E),
         modifier = Modifier
             .fillMaxWidth()
-            .height(60.dp)     ) {
+                ) {
         Row(
             modifier = Modifier.fillMaxWidth(),
             horizontalArrangement = Arrangement.SpaceAround,
@@ -82,12 +82,12 @@ fun CustomBottomBar(navController: NavController) {
                     Image(
                         painter = painterResource(id = if (isSelected) item.selectedIconRes else item.iconRes),
                         contentDescription = item.label,
-                        modifier = Modifier.size(24.dp),
+                        modifier = Modifier.size(30.dp),
                         colorFilter = if (isSelected) ColorFilter.tint(Color(0xFFFCC23B)) else null
 
                     )
                     if (isSelected && item.label.isNotEmpty()) {
-                        Spacer(modifier = Modifier.width(10.dp))
+                        Spacer(modifier = Modifier.width(5.dp))
                         Text(
                             text = item.label,
                             color = Color(0xFFFCC23B),

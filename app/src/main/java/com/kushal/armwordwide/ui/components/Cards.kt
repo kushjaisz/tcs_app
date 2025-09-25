@@ -435,6 +435,7 @@ fun PromoCard(
         Box(
             modifier = Modifier.fillMaxSize()
         ) {
+            // Background Image
             Image(
                 painter = painterResource(id = imageRes),
                 contentDescription = null,
@@ -443,10 +444,12 @@ fun PromoCard(
                     .fillMaxSize()
                     .clip(RoundedCornerShape(8.dp))
             )
+
+            // Bottom Gradient
             Box(
                 modifier = Modifier
                     .fillMaxWidth()
-                    .height(100.dp)
+                    .height(120.dp)
                     .background(
                         brush = Brush.verticalGradient(
                             colors = listOf(Color.Transparent, Color.Black)
@@ -455,47 +458,46 @@ fun PromoCard(
                     .align(Alignment.BottomCenter)
             )
 
+            // Text content
             Column(
                 modifier = Modifier
                     .fillMaxWidth()
                     .align(Alignment.TopCenter)
-                    .padding(top = 35.dp, start = 16.dp, end = 16.dp),
+                    .padding(top = 55.dp, start = 16.dp, end = 16.dp),
                 horizontalAlignment = Alignment.CenterHorizontally
             ) {
                 Text(
                     text = "Start your free trial today!",
                     color = Color.White,
                     style = MaterialTheme.typography.headlineMedium,
-                    textAlign = TextAlign.Center,
-                    modifier = Modifier
-                        .fillMaxWidth()
-                        .padding(start = 10.dp, end = 10.dp)
+                    textAlign = TextAlign.Center
                 )
+                Spacer(modifier = Modifier.height(50.dp))
                 Text(
                     text = "This is a clear and concise call to action that encourages users to sign up for a free trial of The Creative Network.",
                     color = Color(0xFF999999),
                     style = MaterialTheme.typography.bodySmall,
                     textAlign = TextAlign.Center,
-                    modifier = Modifier
-                        .fillMaxWidth()
-                        .padding(top = 15.dp)
+                    modifier = Modifier.padding(top = 15.dp)
                 )
-                Spacer(modifier = Modifier.height(30.dp))
+            }
 
-                PrimaryAppButton2(
-                    onClick = {
-                        Log.d("Button", "Clicked!")
-                    }
-                ) {
-                    Text(
-                        text = "Start a Free Trial",
-                        maxLines = 1,
-                        fontSize = 13.sp,
-                        softWrap = false,
-                        overflow = TextOverflow.Clip
-                    )
-                }
+            // Button at bottom
+            PrimaryAppButton2(
+                onClick = { Log.d("Button", "Clicked!") },
+                modifier = Modifier
+                    .align(Alignment.BottomCenter)
+                    .padding(bottom = 50.dp)
+            ) {
+                Text(
+                    text = "Start a Free Trial",
+                    maxLines = 1,
+                    fontSize = 13.sp,
+                    softWrap = false,
+                    overflow = TextOverflow.Clip
+                )
             }
         }
     }
 }
+
