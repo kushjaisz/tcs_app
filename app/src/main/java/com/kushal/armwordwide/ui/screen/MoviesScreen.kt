@@ -211,7 +211,9 @@ fun Documentaries(){
                         title = "",
                         imagePainter = painterResource(id = R.drawable.card_12),
                         onClick = {  },
-                        modifier = Modifier.width(153.dp).height(185.dp)
+                        modifier = Modifier
+                            .width(153.dp)
+                            .height(185.dp)
                     )
                 }
                 item {
@@ -219,7 +221,9 @@ fun Documentaries(){
                         title = "",
                         imagePainter = painterResource(id = R.drawable.card11),
                         onClick = {  },
-                        modifier = Modifier.width(153.dp).height(185.dp)
+                        modifier = Modifier
+                            .width(153.dp)
+                            .height(185.dp)
                     )
                 }
                 item {
@@ -227,7 +231,9 @@ fun Documentaries(){
                         title = "",
                         imagePainter = painterResource(id = R.drawable.card_12),
                         onClick = { },
-                        modifier = Modifier.width(153.dp).height(185.dp)
+                        modifier = Modifier
+                            .width(153.dp)
+                            .height(185.dp)
                     )
                 }
                 item {
@@ -235,7 +241,9 @@ fun Documentaries(){
                         title = "",
                         imagePainter = painterResource(id = R.drawable.card11),
                         onClick = {  },
-                        modifier = Modifier.width(153.dp).height(185.dp)
+                        modifier = Modifier
+                            .width(153.dp)
+                            .height(185.dp)
                     )
                 }
             }
@@ -268,7 +276,9 @@ fun TrendingNow(){
                         title = "",
                         imagePainter = painterResource(id = R.drawable.card_14),
                         onClick = {  },
-                        modifier = Modifier.width(110.dp).height(171.dp)
+                        modifier = Modifier
+                            .width(110.dp)
+                            .height(171.dp)
 
                     )
                 }
@@ -277,7 +287,9 @@ fun TrendingNow(){
                         title = "",
                         imagePainter = painterResource(id = R.drawable.card_15),
                         onClick = {  },
-                        modifier = Modifier.width(110.dp).height(171.dp)
+                        modifier = Modifier
+                            .width(110.dp)
+                            .height(171.dp)
 
                     )
                 }
@@ -286,7 +298,9 @@ fun TrendingNow(){
                         title = "",
                         imagePainter = painterResource(id = R.drawable.card_16),
                         onClick = { },
-                        modifier = Modifier.width(110.dp).height(171.dp)
+                        modifier = Modifier
+                            .width(110.dp)
+                            .height(171.dp)
 
                     )
                 }
@@ -295,7 +309,9 @@ fun TrendingNow(){
                         title = "",
                         imagePainter = painterResource(id = R.drawable.card_17),
                         onClick = { },
-                        modifier = Modifier.width(110.dp).height(171.dp)
+                        modifier = Modifier
+                            .width(110.dp)
+                            .height(171.dp)
 
                     )
                 }
@@ -330,7 +346,9 @@ fun RecommendedMovie(){
                         title = "",
                         imagePainter = painterResource(id = R.drawable.card_18),
                         onClick = {  },
-                        modifier = Modifier.width(110.dp).height(171.dp)
+                        modifier = Modifier
+                            .width(110.dp)
+                            .height(171.dp)
 
                     )
                 }
@@ -339,7 +357,9 @@ fun RecommendedMovie(){
                         title = "",
                         imagePainter = painterResource(id = R.drawable.card_19),
                         onClick = {  },
-                        modifier = Modifier.width(110.dp).height(171.dp)
+                        modifier = Modifier
+                            .width(110.dp)
+                            .height(171.dp)
 
                     )
                 }
@@ -348,7 +368,9 @@ fun RecommendedMovie(){
                         title = "",
                         imagePainter = painterResource(id = R.drawable.card_1),
                         onClick = { },
-                        modifier = Modifier.width(110.dp).height(171.dp)
+                        modifier = Modifier
+                            .width(110.dp)
+                            .height(171.dp)
 
                     )
                 }
@@ -357,7 +379,9 @@ fun RecommendedMovie(){
                         title = "",
                         imagePainter = painterResource(id = R.drawable.card_14),
                         onClick = { },
-                        modifier = Modifier.width(110.dp).height(171.dp)
+                        modifier = Modifier
+                            .width(110.dp)
+                            .height(171.dp)
 
                     )
                 }
@@ -391,7 +415,9 @@ fun Filmmakers(){
                         title = "",
                         imagePainter = painterResource(id = R.drawable.card_4),
                         onClick = {  },
-                        modifier = Modifier.width(110.dp).height(171.dp)
+                        modifier = Modifier
+                            .width(110.dp)
+                            .height(171.dp)
 
                     )
                 }
@@ -400,7 +426,9 @@ fun Filmmakers(){
                         title = "",
                         imagePainter = painterResource(id = R.drawable.card_20),
                         onClick = {  },
-                        modifier = Modifier.width(110.dp).height(171.dp)
+                        modifier = Modifier
+                            .width(110.dp)
+                            .height(171.dp)
 
                     )
                 }
@@ -409,7 +437,9 @@ fun Filmmakers(){
                         title = "",
                         imagePainter = painterResource(id = R.drawable.card_21),
                         onClick = { },
-                        modifier = Modifier.width(110.dp).height(171.dp)
+                        modifier = Modifier
+                            .width(110.dp)
+                            .height(171.dp)
 
                     )
                 }
@@ -418,7 +448,9 @@ fun Filmmakers(){
                         title = "",
                         imagePainter = painterResource(id = R.drawable.card_18),
                         onClick = { },
-                        modifier = Modifier.width(110.dp).height(171.dp)
+                        modifier = Modifier
+                            .width(110.dp)
+                            .height(171.dp)
 
                     )
                 }
@@ -452,7 +484,9 @@ fun Musicians(){
                         title = "",
                         imagePainter = painterResource(id = R.drawable.card_23),
                         onClick = {  },
-                        modifier = Modifier.width(110.dp).height(171.dp)
+                        modifier = Modifier
+                            .width(110.dp)
+                            .height(171.dp)
 
                     )
                 }
@@ -461,7 +495,9 @@ fun Musicians(){
                         title = "",
                         imagePainter = painterResource(id = R.drawable.card_13),
                         onClick = {  },
-                        modifier = Modifier.width(110.dp).height(171.dp)
+                        modifier = Modifier
+                            .width(110.dp)
+                            .height(171.dp)
 
                     )
                 }
@@ -470,7 +506,9 @@ fun Musicians(){
                         title = "",
                         imagePainter = painterResource(id = R.drawable.card_29),
                         onClick = { },
-                        modifier = Modifier.width(110.dp).height(171.dp)
+                        modifier = Modifier
+                            .width(110.dp)
+                            .height(171.dp)
 
                     )
                 }
@@ -479,7 +517,9 @@ fun Musicians(){
                         title = "",
                         imagePainter = painterResource(id = R.drawable.card_26),
                         onClick = { },
-                        modifier = Modifier.width(110.dp).height(171.dp)
+                        modifier = Modifier
+                            .width(110.dp)
+                            .height(171.dp)
 
                     )
                 }
@@ -513,7 +553,9 @@ fun Artist(){
                         title = "",
                         imagePainter = painterResource(id = R.drawable.card_5),
                         onClick = {  },
-                        modifier = Modifier.width(110.dp).height(171.dp)
+                        modifier = Modifier
+                            .width(110.dp)
+                            .height(171.dp)
 
                     )
                 }
@@ -522,7 +564,9 @@ fun Artist(){
                         title = "",
                         imagePainter = painterResource(id = R.drawable.card_13),
                         onClick = {  },
-                        modifier = Modifier.width(110.dp).height(171.dp)
+                        modifier = Modifier
+                            .width(110.dp)
+                            .height(171.dp)
 
                     )
                 }
@@ -531,7 +575,9 @@ fun Artist(){
                         title = "",
                         imagePainter = painterResource(id = R.drawable.card_29),
                         onClick = { },
-                        modifier = Modifier.width(110.dp).height(171.dp)
+                        modifier = Modifier
+                            .width(110.dp)
+                            .height(171.dp)
 
                     )
                 }
@@ -540,7 +586,9 @@ fun Artist(){
                         title = "",
                         imagePainter = painterResource(id = R.drawable.card_26),
                         onClick = { },
-                        modifier = Modifier.width(110.dp).height(171.dp)
+                        modifier = Modifier
+                            .width(110.dp)
+                            .height(171.dp)
 
                     )
                 }
@@ -574,7 +622,9 @@ fun Podcasts(){
                         title = "",
                         imagePainter = painterResource(id = R.drawable.card_6),
                         onClick = {  },
-                        modifier = Modifier.width(110.dp).height(171.dp)
+                        modifier = Modifier
+                            .width(110.dp)
+                            .height(171.dp)
 
                     )
                 }
@@ -583,7 +633,9 @@ fun Podcasts(){
                         title = "",
                         imagePainter = painterResource(id = R.drawable.card_30),
                         onClick = {  },
-                        modifier = Modifier.width(110.dp).height(171.dp)
+                        modifier = Modifier
+                            .width(110.dp)
+                            .height(171.dp)
 
                     )
                 }
@@ -592,7 +644,9 @@ fun Podcasts(){
                         title = "",
                         imagePainter = painterResource(id = R.drawable.card_31),
                         onClick = { },
-                        modifier = Modifier.width(110.dp).height(171.dp)
+                        modifier = Modifier
+                            .width(110.dp)
+                            .height(171.dp)
 
                     )
                 }
@@ -601,7 +655,9 @@ fun Podcasts(){
                         title = "",
                         imagePainter = painterResource(id = R.drawable.card_5),
                         onClick = { },
-                        modifier = Modifier.width(110.dp).height(171.dp)
+                        modifier = Modifier
+                            .width(110.dp)
+                            .height(171.dp)
 
                     )
                 }
@@ -635,7 +691,9 @@ fun FromIndia(){
                         title = "",
                         imagePainter = painterResource(id = R.drawable.card_32),
                         onClick = {  },
-                        modifier = Modifier.width(110.dp).height(171.dp)
+                        modifier = Modifier
+                            .width(110.dp)
+                            .height(171.dp)
 
                     )
                 }
@@ -644,7 +702,9 @@ fun FromIndia(){
                         title = "",
                         imagePainter = painterResource(id = R.drawable.card_33),
                         onClick = {  },
-                        modifier = Modifier.width(110.dp).height(171.dp)
+                        modifier = Modifier
+                            .width(110.dp)
+                            .height(171.dp)
 
                     )
                 }
@@ -653,7 +713,9 @@ fun FromIndia(){
                         title = "",
                         imagePainter = painterResource(id = R.drawable.card_7),
                         onClick = { },
-                        modifier = Modifier.width(110.dp).height(171.dp)
+                        modifier = Modifier
+                            .width(110.dp)
+                            .height(171.dp)
 
                     )
                 }
@@ -662,7 +724,9 @@ fun FromIndia(){
                         title = "",
                         imagePainter = painterResource(id = R.drawable.card_1),
                         onClick = { },
-                        modifier = Modifier.width(110.dp).height(171.dp)
+                        modifier = Modifier
+                            .width(110.dp)
+                            .height(171.dp)
 
                     )
                 }
@@ -696,7 +760,9 @@ fun FromGreece(){
                         title = "",
                         imagePainter = painterResource(id = R.drawable.card_8),
                         onClick = {  },
-                        modifier = Modifier.width(110.dp).height(171.dp)
+                        modifier = Modifier
+                            .width(110.dp)
+                            .height(171.dp)
 
                     )
                 }
@@ -705,7 +771,9 @@ fun FromGreece(){
                         title = "",
                         imagePainter = painterResource(id = R.drawable.card_9),
                         onClick = {  },
-                        modifier = Modifier.width(110.dp).height(171.dp)
+                        modifier = Modifier
+                            .width(110.dp)
+                            .height(171.dp)
 
                     )
                 }
@@ -714,7 +782,9 @@ fun FromGreece(){
                         title = "",
                         imagePainter = painterResource(id = R.drawable.card_10),
                         onClick = { },
-                        modifier = Modifier.width(110.dp).height(171.dp)
+                        modifier = Modifier
+                            .width(110.dp)
+                            .height(171.dp)
 
                     )
                 }
@@ -723,7 +793,9 @@ fun FromGreece(){
                         title = "",
                         imagePainter = painterResource(id = R.drawable.card_29),
                         onClick = { },
-                        modifier = Modifier.width(110.dp).height(171.dp)
+                        modifier = Modifier
+                            .width(110.dp)
+                            .height(171.dp)
 
                     )
                 }
@@ -763,8 +835,12 @@ fun PreviewHomeHeaderSection() {
         item { FromIndia() }
         item { FromGreece() }
         item { Spacer(modifier = Modifier.height(16.dp)) }
-        item { PromoCard(
-            imageRes = R.drawable.image_13,
-            onClick = {}
-        ) }
+        item {
+            Box (modifier = Modifier.padding(12.dp)){
+                PromoCard(
+                    imageRes = R.drawable.image_13,
+                    onClick = {}
+                )
+            }
+        }
     }}
