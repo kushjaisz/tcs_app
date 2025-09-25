@@ -132,7 +132,7 @@ fun PreviewCategoryCardHorizontal() {
         LazyRow(
             modifier = Modifier
                 .fillMaxWidth()
-                .padding(16.dp),
+                .padding(2.dp),
             horizontalArrangement = Arrangement.spacedBy(16.dp)
         ) {
             item {
@@ -260,7 +260,7 @@ fun DeviceSupportCard(
 @Preview(showBackground = true, backgroundColor = 0xFF000000)
 @Composable
 fun DeviceSupportCardPreview() {
-    Column(modifier = Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
+    Column(modifier = Modifier.padding(2.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
         DeviceSupportCard(
             imagePainter =    painterResource(id = R.drawable.mobile),
             title = "Smartphones",
@@ -389,7 +389,7 @@ fun PlanCard(
 @Preview(showBackground = true, backgroundColor = 0xFF1A1A1A)
 @Composable
 fun PlanCardPreview() {
-    Column(modifier = Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
+    Column(modifier = Modifier.padding(2.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
 
         PlanCard(
             imagePainter =    painterResource(id = R.drawable.laptop),
@@ -421,7 +421,7 @@ fun PromoCard(
 ) {
     Card(
         modifier = modifier
-            .padding(14.dp)
+            .padding(2.dp)
             .fillMaxWidth()
             .aspectRatio(1f)
             .clickable(onClick = onClick),

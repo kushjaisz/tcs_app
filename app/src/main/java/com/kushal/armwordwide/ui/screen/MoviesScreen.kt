@@ -762,6 +762,7 @@ fun PreviewHomeHeaderSection() {
         item { Podcasts() }
         item { FromIndia() }
         item { FromGreece() }
+        item { Spacer(modifier = Modifier.height(16.dp)) }
         item { PromoCard(
             imageRes = R.drawable.image_13,
             onClick = {}

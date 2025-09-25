@@ -164,6 +164,7 @@ fun ImageLayout(
                     )
 
                     PlanCardPreview()
+                    Spacer(modifier = Modifier.height(16.dp))
                     PromoCard(
                         imageRes = R.drawable.image_13,
                         onClick = {}
